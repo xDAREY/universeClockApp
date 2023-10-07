@@ -9,9 +9,23 @@ class pickRegion extends StatefulWidget {
 
 class _pickRegionState extends State<pickRegion> {
   @override
+  void initState() {
+    super.initState();
+    print('initState function ran');
+  }
+
+  @override
   Widget build(BuildContext context) {
+    print('build function ran');
     return Scaffold(
-      body: Text('Pick a region'),
+      backgroundColor: Colors.white,
+      appBar: AppBar(
+        backgroundColor: Colors.green,
+        title: Text('Pick a region'),
+        elevation: 0,
+        centerTitle: true,
+      ),
+      body: Text('Pick a region screen'),
     );
   }
 }
