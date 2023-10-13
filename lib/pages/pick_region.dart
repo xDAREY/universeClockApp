@@ -8,11 +8,6 @@ class pickRegion extends StatefulWidget {
 }
 
 class _pickRegionState extends State<pickRegion> {
-  @override
-  void initState() {
-    super.initState();
-    print('initState function ran');
-  }
 
   @override
   Widget build(BuildContext context) {

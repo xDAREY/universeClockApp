@@ -5,7 +5,7 @@ import 'package:universal_clock/pages/home.dart';
 
 void main() =>runApp(MaterialApp(
   debugShowCheckedModeBanner: false,
-  initialRoute: '/home',
+  initialRoute: '/',
   routes: {
     '/': (context) => splashScreen(),
     '/home': (context) => Home(),
